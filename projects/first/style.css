@@ -1,0 +1,21 @@
+:root {
+  --main-bg: #F2F2EA;
+  --text-color: #2C2E2E;
+  --decoration-color: #284787;
+   --font-small: 0.875rem;  /* ~14px */
+  --font-medium: 1rem;     /* 16px */
+  --font-large: 1.25rem;   /* ~20px */
+  --font-xlarge: 2.5rem;   /* ~40px */
+}
+
+body {
+  background-color: var(--main-bg);
+}
+
+.home {
+  font-size: var(--font-xlarge);
+   height: 100vh; /* full screen height */
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+}
